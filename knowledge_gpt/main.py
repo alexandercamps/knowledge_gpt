@@ -78,9 +78,9 @@ with st.form(key="qa_form"):
     submit = st.form_submit_button("Submit")
 
 
-with st.expander("Advanced Options"):
-    return_all_chunks = st.checkbox("Show all chunks retrieved from vector search")
-    show_full_doc = st.checkbox("Show parsed contents of the document")
+# with st.expander("Advanced Options"):
+#     return_all_chunks = st.checkbox("Show all chunks retrieved from vector search")
+#     show_full_doc = st.checkbox("Show parsed contents of the document")
 
 
 if show_full_doc:
