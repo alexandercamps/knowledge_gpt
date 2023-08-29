@@ -83,10 +83,10 @@ with st.form(key="qa_form"):
 #     show_full_doc = st.checkbox("Show parsed contents of the document")
 
 
-if show_full_doc:
-    with st.expander("Document"):
-        # Hack to get around st.markdown rendering LaTeX
-        st.markdown(f"<p>{wrap_doc_in_html(file.docs)}</p>", unsafe_allow_html=True)
+# if show_full_doc:
+#     with st.expander("Document"):
+#         # Hack to get around st.markdown rendering LaTeX
+#         st.markdown(f"<p>{wrap_doc_in_html(file.docs)}</p>", unsafe_allow_html=True)
 
 
 if submit:
